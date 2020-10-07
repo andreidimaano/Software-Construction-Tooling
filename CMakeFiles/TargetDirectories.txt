@@ -1,0 +1,4 @@
+/home/csmajs/adima009/labs/lab1/CMakeFiles/rebuild_cache.dir
+/home/csmajs/adima009/labs/lab1/CMakeFiles/edit_cache.dir
+/home/csmajs/adima009/labs/lab1/CMakeFiles/bigger_area_calculator.dir
+/home/csmajs/adima009/labs/lab1/CMakeFiles/area_calculator.dir
