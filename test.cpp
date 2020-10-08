@@ -20,6 +20,12 @@ TEST(EchoTest, NewLine) {
 	EXPECT_EQ("\n", echo(2, test_val));
 }
 
+TEST(EchoText, Tab) {
+	char* test_val[2]; test_val[0] = "./c-echo";
+	test_val[1] = "\t";
+	EXPECT_EQ("\t", echo(2, test_val));
+}
+
 TEST(EchoTest, BackSlash) {
 	char* test_val[2]; test_val[0] = "./c-echo";
 	test_val[1] = "\\";
