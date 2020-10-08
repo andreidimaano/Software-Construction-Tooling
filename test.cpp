@@ -37,6 +37,12 @@ TEST(EchoTest, Space) {
 	test_val[1] = " ";
 	EXPECT_EQ(" " , echo(2, test_val));
 }
+
+TEST(EchoTest, IntChar) {
+	char* test_val[2]; test_val[0] = "./c-echo";
+	test_val[1] = "0123";
+	EXPECT_EQ("0123", echo(2, test_val));
+}
 	
 
 int main(int argc, char **argv) {
